@@ -1,0 +1,25 @@
+{
+    "name": "kshitizsingh/yii2-beemer",
+    "description": "Manage User Account With RBAC",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","login","logout","rbac","signup","forgot","password","confirmation","account"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kshitiz Singh",
+            "email": "kshitiz.sng@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kshitiz\\beemer\\": ""
+        }
+    },
+    "repositories":[{
+        "type": "git",
+        "url": "https://github.com/kshitizsingh/beemer.git"
+    }]    
+}
